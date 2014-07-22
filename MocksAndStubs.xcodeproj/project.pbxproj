@@ -80,13 +80,13 @@
 		F2D0F43C1974DE2F00CD3C93 /* MocksAndStubs */ = {
 			isa = PBXGroup;
 			children = (
+				F2D0F45F1974DE6100CD3C93 /* MyClass.swift */,
 				F2D0F43F1974DE2F00CD3C93 /* AppDelegate.swift */,
 				F2D0F4441974DE2F00CD3C93 /* ViewController.swift */,
 				F2D0F4461974DE2F00CD3C93 /* Main.storyboard */,
 				F2D0F4491974DE2F00CD3C93 /* Images.xcassets */,
 				F2D0F4411974DE2F00CD3C93 /* MocksAndStubs.xcdatamodeld */,
 				F2D0F43D1974DE2F00CD3C93 /* Supporting Files */,
-				F2D0F45F1974DE6100CD3C93 /* MyClass.swift */,
 			);
 			path = MocksAndStubs;
 			sourceTree = "<group>";
