@@ -34,7 +34,7 @@ class MyClassTests: XCTestCase {
 		XCTAssertTrue(returnValue == true, "The return value should be been true")
 	}
 	
-	func testDatabaseHasRecordsForSomeEntityReturnsTrueWhenFetchRequestReturnsEMPTYArray() {
+	func testDatabaseHasRecordsForSomeEntityReturnsFalseWhenFetchRequestReturnsEMPTYArray() {
 		class MockNSManagedObjectContext: NSManagedObjectContext {
 			override func executeFetchRequest(request: NSFetchRequest, error: NSErrorPointer) -> [AnyObject]? {
 				return [] // Provided a different stub implementation to test the "false" branch of my method under test
