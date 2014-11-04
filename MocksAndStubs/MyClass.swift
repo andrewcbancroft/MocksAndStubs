@@ -12,6 +12,6 @@ class MyClass {
 	func databaseHasRecordsForSomeEntity() -> Bool {
 		let fetchRequest = NSFetchRequest(entityName: "SomeEntity")
 		let fetchRequestResults = self.context.executeFetchRequest(fetchRequest, error: nil) // May want to do something with the error in real life...
-		return (fetchRequestResults.count > 0)
+		return (fetchRequestResults?.count > 0)
 	}
 }

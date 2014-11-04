@@ -17,7 +17,7 @@ class MyClassTests: XCTestCase {
 	// Yay for verbose test names!  :]
 	func testDatabaseHasRecordsForSomeEntityReturnsTrueWhenFetchRequestReturnsNonEmptyArray() {
 		class MockNSManagedObjectContext: NSManagedObjectContext {
-			override func executeFetchRequest(request: NSFetchRequest!, error: AutoreleasingUnsafePointer<NSError?>) -> [AnyObject]! {
+			override func executeFetchRequest(request: NSFetchRequest, error: NSErrorPointer) -> [AnyObject]? {
 				return ["object 1"]
 			}
 		}
@@ -36,7 +36,7 @@ class MyClassTests: XCTestCase {
 	
 	func testDatabaseHasRecordsForSomeEntityReturnsTrueWhenFetchRequestReturnsEMPTYArray() {
 		class MockNSManagedObjectContext: NSManagedObjectContext {
-			override func executeFetchRequest(request: NSFetchRequest!, error: AutoreleasingUnsafePointer<NSError?>) -> [AnyObject]! {
+			override func executeFetchRequest(request: NSFetchRequest, error: NSErrorPointer) -> [AnyObject]? {
 				return [] // Provided a different stub implementation to test the "false" branch of my method under test
 			}
 		}
