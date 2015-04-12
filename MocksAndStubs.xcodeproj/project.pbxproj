@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F26B8CD0197ED35100A9C236 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0F45F1974DE6100CD3C93 /* MyClass.swift */; };
 		F2D0F4401974DE2F00CD3C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0F43F1974DE2F00CD3C93 /* AppDelegate.swift */; };
-		F2D0F4431974DE2F00CD3C93 /* MocksAndStubs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2D0F4411974DE2F00CD3C93 /* MocksAndStubs.xcdatamodeld */; };
 		F2D0F4451974DE2F00CD3C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0F4441974DE2F00CD3C93 /* ViewController.swift */; };
 		F2D0F4481974DE2F00CD3C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0F4461974DE2F00CD3C93 /* Main.storyboard */; };
 		F2D0F44A1974DE2F00CD3C93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D0F4491974DE2F00CD3C93 /* Images.xcassets */; };
@@ -31,7 +30,6 @@
 		F2D0F43A1974DE2F00CD3C93 /* MocksAndStubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MocksAndStubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D0F43E1974DE2F00CD3C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2D0F43F1974DE2F00CD3C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2D0F4421974DE2F00CD3C93 /* MocksAndStubs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MocksAndStubs.xcdatamodel; sourceTree = "<group>"; };
 		F2D0F4441974DE2F00CD3C93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2D0F4471974DE2F00CD3C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2D0F4491974DE2F00CD3C93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				F2D0F4441974DE2F00CD3C93 /* ViewController.swift */,
 				F2D0F4461974DE2F00CD3C93 /* Main.storyboard */,
 				F2D0F4491974DE2F00CD3C93 /* Images.xcassets */,
-				F2D0F4411974DE2F00CD3C93 /* MocksAndStubs.xcdatamodeld */,
 				F2D0F43D1974DE2F00CD3C93 /* Supporting Files */,
 			);
 			path = MocksAndStubs;
@@ -218,7 +215,6 @@
 				F2D0F4601974DE6100CD3C93 /* MyClass.swift in Sources */,
 				F2D0F4451974DE2F00CD3C93 /* ViewController.swift in Sources */,
 				F2D0F4401974DE2F00CD3C93 /* AppDelegate.swift in Sources */,
-				F2D0F4431974DE2F00CD3C93 /* MocksAndStubs.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,19 +415,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F2D0F4411974DE2F00CD3C93 /* MocksAndStubs.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F2D0F4421974DE2F00CD3C93 /* MocksAndStubs.xcdatamodel */,
-			);
-			currentVersion = F2D0F4421974DE2F00CD3C93 /* MocksAndStubs.xcdatamodel */;
-			path = MocksAndStubs.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F2D0F4321974DE2F00CD3C93 /* Project object */;
 }
